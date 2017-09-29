@@ -3,7 +3,7 @@
 Plugin Name: maskice.hr Internal Links
 Plugin URI: https://github.com/markoidzan/maskice.hr-internal-links-dashboard/
 Description: Interni linkovi za lakši rad s maskice.hr stranicom
-Version: 1.0
+Version: 1.1
 Author: Marko Idžan
 Author URI: https://idzan.com.hr
 */
