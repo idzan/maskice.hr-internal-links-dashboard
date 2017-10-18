@@ -6,6 +6,8 @@ Description: Interni linkovi za lakši rad s maskice.hr stranicom
 Version: 1.1
 Author: Marko Idžan
 Author URI: https://idzan.com.hr
+WC requires at least: 3.0.0
+WC tested up to: 3.2.0
 */
 function maskice_internal_dashboard () {
 	global $wp_meta_boxes;
