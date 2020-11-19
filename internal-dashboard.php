@@ -1,26 +1,20 @@
 <?php
 /*
-Plugin Name: maskice.hr Internal Links
-Plugin URI: https://github.com/markoidzan/maskice.hr-internal-links-dashboard/
+Plugin Name: Internal Links
+Plugin URI: https://idzan.eu
 Description: Interni linkovi za lakši rad s maskice.hr stranicom
-Version: 1.1
+Version: 1.5
 Author: Marko Idžan
-Author URI: https://idzan.com.hr
-WC requires at least: 3.0.0
-WC tested up to: 3.2.0
+Author URI: https://idzan.eu
 */
 function maskice_internal_dashboard () {
 	global $wp_meta_boxes;
 
-	wp_add_dashboard_widget('maskice_internal', 'maskice.hr - Korisni linkovi za administratore' , 'maskice_widget_dash_linkovi');
+	wp_add_dashboard_widget('maskice_internal', 'WordPress Dashboard Widget for Internal Usage' , 'maskice_widget_dash_linkovi');
 }
 
 function maskice_widget_dash_linkovi () {
-	echo '<p>Webmail: <a href="http://mail.maskice.hr">mail.maskice.hr (via Zoho Mail)</a></p><hr>
-	<p>Web Chat: <a href="https://maskice.hr/wp-admin/admin.php?page=scx_console">Chat Console</a></p><hr>
-	<p>Server Info: <a href="http://******.opremazamobitel.com:####">Server Konzola</a></p>
-	<p>Username: Gr00t <br>Password: ******** <br>SSH port: ## <br>Server IP: 94.###.###.213 </p>
-	<p>SFTP Podatci: <br>IP (Host): 94.###.###.213 <br>Username: opr## <br>Password: ******** <br>Port: ## </p>';
+	echo '<strong>This is sample coide for wordPress Dashboard Widget, use wisely.</strong>';
 }
 
 add_action ('wp_dashboard_setup','maskice_internal_dashboard');
