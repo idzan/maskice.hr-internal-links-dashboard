@@ -16,11 +16,11 @@ function maskice_internal_dashboard () {
 }
 
 function maskice_widget_dash_linkovi () {
-	echo '<p>Webmail: <a href="http://mail.maskice.hr">mail.maskice.hr (via Zoho Mail)</a></p><hr>
-	<p>Web Chat: <a href="https://maskice.hr/wp-admin/admin.php?page=scx_console">Chat Console</a></p><hr>
-	<p>Server Info: <a href="http://******.opremazamobitel.com:####">Server Konzola</a></p>
-	<p>Username: Gr00t <br>Password: ******** <br>SSH port: ## <br>Server IP: 94.###.###.213 </p>
-	<p>SFTP Podatci: <br>IP (Host): 94.###.###.213 <br>Username: opr## <br>Password: ******** <br>Port: ## </p>';
+	echo '<p>Webmail: <a href="http://*****maskice.hr">****maskice.hr (via Zoho Mail)</a></p><hr>
+	<p>Web Chat: <a href="https://maskice.hr/******************">Chat Console</a></p><hr>
+	<p>Server Info: <a href="http://******.oprem**********.com:####">Server Konzola</a></p>
+	<p>Username: Gr00t <br>Password: ******** <br>SSH port: ## <br>Server IP: 94.###.###.**3 </p>
+	<p>SFTP Podatci: <br>IP (Host): 94.###.###.213 <br>Username: ****# <br>Password: ******** <br>Port: ##*** </p>';
 }
 
 add_action ('wp_dashboard_setup','maskice_internal_dashboard');
